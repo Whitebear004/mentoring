@@ -1,90 +1,48 @@
 <!DOCTYPE html>
  <html lang="en">
-     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>html-forms-assignment</title>
-    </head>
-    <body>
-        <h1>Job Application Form</h1>
-        <form action="#" method="post" enctype="multipart/form-data"  > 
-
-        <fieldset style="width: 250px;" >
-             <legend >Personal Details</legend>
-
-             <label for="Full-Name">Full Name</label>
-             <input type="text" id="Full-Name"required name="Full_Name" placeholder="Full-Name">
-             
-             <label for="Email">Email</label>
-             <input type="email" id="Email" name="email" required placeholder="email">
-                 
-            <label for="Phone">Phone</label>
-            <input type="tel" name="tel" id="Phone" required placeholder="+995*******">
-        </fieldset>
-
-        <fieldset style="width: 250px;">
-            <legend>Job Details</legend>
-              
-             <label for="Applied">Position Applied For</label>
-             <select name="Applied" id="Applied">
-                <option value="Frontend-Dev">Frontend Dev</option>
-                <option value="Backend-Dev">Backend Dev</option>
-                <option value="Full-Stack-Dev">Full Stack Dev</option>
-             </select>
-
-              <label>Experience Level:<label>
-                
-                 <div >
-                    
-                    <input id="Junior" type="radio" name="level" value="junior">
-                    <label for="Junior">Junior </label>
-                    <br>
-                    
-                    <input id="Mid-Level" type="radio" name="level" value="mid">
-                    <label for="Mid-Level">Mid-Level</label>
-
-                    <br>
-                   
-                     <input id="Senior" type="radio" name="level" value="senior" >
-                     <label for="Senior">Senior</label>
-                   
-                </div>
-        </fieldset>
-
-
-        <fieldset style="width: 250px;">
-
-            <legend>Skills</legend>
-
-            <input type="checkbox" id="HTML" name="technologies">
-            <label for="HTML">HTML</label>
-              <br>
-            <input type="checkbox" id="CSS" name="technologies" >
-            <label for="CSS">CSS</label>
-             <br>
-            <input type="checkbox" id="JavaScript" name="technologies" >
-            <label for="JavaScript">JavaScript</label>
-             <br>
-            <input type="checkbox" id="Python" name="technologies" >
-            <label for="Python">Python</label>
-             <br>
-            <input type="checkbox" id="React" name="technologies" >
-            <label for="React">React</label>
-            
-        </fieldset>
+      <head>
+         <meta charset="UTF-8" />
+         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         <title>Travel-reservation-form</title>
+      </head>
+      <body>
+        <form action="#" method="post" style="width: 350px;">
+          <h1>Travel Reservation Form</h1>
+         <fieldset >
+            <legend>Personal information</legend>
+            <label for="full-name">Full Name:</label>
+            <input id="full-name" type="text" placeholder="your full name" name="Full-Name"required>                                                             <br>
+            <label for="email"> Email:</label>
+            <input id="email" type="email" required placeholder="email" name="email">       <br>
+            <label for="Phone">Phone</label>   
+            <input id="Phone" type="number" required placeholder="+995" name="Phone">       <br>
+         </fieldset>
         
-        <fieldset style="width: 500px;" >
-          <legend>Document</legend>
+         <fieldset>
+            <legend>Travel  Information</legend>
+            <label for="package">Select a package</label>
+            <select name="package" id="package" required>
+              <option value="package 1">package 1</option>
+              <option value="package 2">package 2</option>
+               <option value="package 3">package 3</option>
+            </select> <br>
+           <label for="dastination">Dastination :</label>
+           <input type="text" required>
+         </fieldset>
 
-          <label for="Resume">Resume Upload:</label >  
-          <input id="Resume" type="file" accept="application/pdf"> 
-           <br>
-          <label >Cover Latter</label> <br>
-          <textarea name="Cover_Latter" id="" rows="5"></textarea>
-        </fieldset> 
+         <fieldset>
+           <label for="Arrival">Arrival date</label>
+           <input id="Arrival" type="date"required name="date" > <br>
+           <label for="departure">Departure Date</label>
+           <input type="date" id="departure" name="date" required>
+         </fieldset>
 
-        <label for="">Send Application</label> 
-        <button>Apply Now</button>
-        </form>
-    </body>
- </html>
+         <fieldset>
+          <label for="number">Number of People:</label>  <br>
+          <input type="number" id="number" name="number">
+         </fieldset>
+
+         <button>submit</button>
+       </form>
+     </body>
+ </html> 
