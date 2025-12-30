@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ <html lang="en">
+      <head>
+         <meta charset="UTF-8" />
+         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         <title>Travel-reservation-form</title>
+      </head>
+      <body>
+        <form action="#" method="post" style="width: 350px;">
+          <h1>Travel Reservation Form</h1>
+         <fieldset >
+            <legend>Personal information</legend>
+            <label for="full-name">Full Name:</label>
+            <input id="full-name" type="text" placeholder="your full name" name="Full-Name"required>                                                             <br>
+            <label for="email"> Email:</label>
+            <input id="email" type="email" required placeholder="email" name="email">       <br>
+            <label for="Phone">Phone</label>   
+            <input id="Phone" type="number" required placeholder="+995" name="Phone">       <br>
+         </fieldset>
+        
+         <fieldset>
+            <legend>Travel  Information</legend>
+            <label for="package">Select a package</label>
+            <select name="package" id="package" required>
+              <option value="package 1">package 1</option>
+              <option value="package 2">package 2</option>
+               <option value="package 3">package 3</option>
+            </select> <br>
+           <label for="dastination">Dastination :</label>
+           <input type="text" required>
+         </fieldset>
+
+         <fieldset>
+           <label for="Arrival">Arrival date</label>
+           <input id="Arrival" type="date"required name="date" > <br>
+           <label for="departure">Departure Date</label>
+           <input type="date" id="departure" name="date" required>
+         </fieldset>
+
+         <fieldset>
+          <label for="number">Number of People:</label>  <br>
+          <input type="number" id="number" name="number">
+         </fieldset>
+
+         <button>submit</button>
+       </form>
+     </body>
+ </html> 
