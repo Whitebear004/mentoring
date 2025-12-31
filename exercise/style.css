@@ -34,7 +34,7 @@ header {
     border-bottom: 1px solid var(--glass-border);
     padding: 1rem 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between ;
     align-items: center;
     position: sticky;
     top: 0;
@@ -266,11 +266,10 @@ aside ul {
 }
 
 aside li {
-    margin-bottom: 0.8rem;
-    padding-bottom: 0.8rem;
-    border-bottom: 1px solid var(--glass-border);
+    margin-bottom: 0.8 rem
+    padding-bottom: 1.6 rem;    border-bottom: 1px solid var(--glass-border);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between ;
 }
 
 aside time {
