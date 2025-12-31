@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ka">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Future Tech 2025</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo"> FUTURE TECH </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">მთავარი</a></li>
+                    <li><a href="#schedule">განრიგი</a></li>
+                    <li><a href="#register">რეგისტრაცია</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <main>
+                <section id="home" class="hero">
+
+                    <h1>მომავალი იწყება </h1>
+                    <p>ტექნოლოგიური სამყარო წარმოუდგენელი სისწრაფით იცვლება და ჩვენ გვინდა, რომ შენ ამ ცვლილებების ეპიცენტრში იყო! გეპატიჟებით კონფერენციაზე, სადაც კოდი რეალობად იქცევა.</p>
+
+                 <div class="hero-stats">
+                      <div class="stat-item">
+                          <span class="number">50+</span>
+                          <span class="label">სპიკერი</span>
+                      </div>
+
+                      <div class="stat-item">
+                          <span class="number">20</span>
+                          <span class="label">ქვეყანა</span>
+                      </div>
+
+                      <div class="stat-item">
+                          <span class="number">3</span>
+                          <span class="label">დღე</span>
+                     </div>
+                  </div>
+
+               </section>
+
+               <section id="schedule" class="glass-panel">
+
+                 <h2>ღონისძიების განრიგი</h2>
+
+                 <table > 
+                    <caption>დღე 1 - შესავალი და AI</caption>
+                    <thead>
+                        <tr>
+                            <th>დრო</th>
+                            <th>თემა</th>
+                            <th>მომხსენებელი</th>
+                            <th>დარბაზი</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>10:00-11:00</td>
+                            <td>ხელოვნური ინტელექტის მომავალი</td>
+                            <td>გიორგი ბერიძე</td>
+                            <td>მთავარი დარბაზი</td>
+                        </tr>
+                        <tr>
+                            <td>11:30-13:00</td>
+                            <td>კვანტური გამოთვლები</td>
+                            <td>ანა მამულაშვილი</td>
+                            <td>დარბაზი B </td>
+                        </tr>
+                        <tr>
+                            <td>14:00-15:30</td>
+                            <td>კიბერუსაფრთხოება 2025</td>
+                            <td>დავით კაპანაძე</td>
+                            <td>მთავარი დარბაზი</td>
+                        </tr>
+                        <tr>
+                            <td>16:00-17:30</td>
+                            <td>Blockchain ტექნოლოგიები</td>
+                            <td>სოფო გელოვანი</td>
+                            <td>დარბაზი C</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td colspan="4">*განრიგი შეიძლება შეიცვალოს</td>
+                        </tr>
+                    </tfoot>
+                </table>
+              </section>
+              
+              <section id="register" class="glass-panel">
+                   <h2>რეგისტრაცია</h2>
+                  <form action="#" method="post">
+                     <label for="fullname">სრული სახელი</label>
+                     <input id="fullname" type="text" name="full_name" placeholder="თქვენი სახელი" required>
+                     <label for="email">ელ.ფოსტა</label>
+                     <input id="email" type="email" placeholder="example@email.com" required>
+                     <label for="ticket">ბილეთის ტიპი</label>
+                     <select name="ticket" id="ticket" required>
+                           <option value="stantart">სტანდარტული</option>
+                           <option value="vip">VIP</option>
+                     </select>
+                     <div class="form-group"> <p>დაინტერესების სფეროები:</p>
+                        <div class="checkbox-group">
+                           <label for="ai"> <input type="checkbox" id="ai" name="interest">  AI & ML</label>
+                           <label for="web"> <input type="checkbox" id="web" name="interest">Web Dev </label>
+                           <label for="mobile"><input type="checkbox" id="mobile" name="interest">Mobile</label>
+                       </div>
+                     </div>
+                     <label for="coment">კომენტარი</label>
+                     <textarea name="coment"  id="coment" placeholder="Why do you want to attend the conference ? What are your expectations?" required></textarea>   
+                      <button type="button" class="btn-primary">დარეგისტრირდი</button>
+                 </form>
+              </section>
+
+            </main>
+            <aside>
+                <div>
+                   <h3>სიახლეები</h3>
+                   
+                   <ul>
+                       <li> 
+                          <time datetime="09:30">09:30</time> 
+                          <span>რეგისტრაცია დაიწყო</span>
+                       </li>
+                       <li>
+                          <time datetime="10:15">10:15 </time>
+                          <span>ახალი სპიკერი დაემატა</span>
+                       </li>
+                       <li>
+                          <time datetime="11:00">11:00</time>
+                          <span>ვორქშოპების განრიგი</span>
+                       </li>
+                   </ul>
+                   
+               </div>
+               <div>
+                    <h3>სპონსორები</h3>
+                    <div class="sponsors">
+                      <span>TechCorp</span>
+                      <span>FutureLabs</span>
+                      <span>innovateGe</span>
+                   </div>
+               </div>
+
+            </aside>
+        </div>
+
+    </body>
+</html>
